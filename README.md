@@ -1,39 +1,60 @@
-# PlayIQ
+# 🏀 PlayIQ
 
-PlayIQ is an interactive basketball play design application that allows coaches to create, visualize, record, and save basketball plays in a simple and visual way.
+Interactive web app for designing and visualizing basketball plays.
 
-## Project Status
+PlayIQ allows coaches and players to create, edit, and share offensive and defensive plays in a visual, intuitive way — similar to drawing on a whiteboard, but smarter.
 
-**This project is still under development.**  
-Core functionality is already being built and tested, but the application is not finished yet and additional features, improvements, and bug fixes are still in progress.
+---
 
-## Current Features
+## 🎬 Preview
 
-- Interactive basketball court
-- Drag and drop player movement
-- Ball passing between players
-- Screener marking
-- Save play metadata to Firebase Firestore
-- Record the court as video
-- Upload video recordings to Firebase Storage
-- Load saved plays from the database
+![PlayIQ UI](assets/playiq-ui.png)
 
-## Tech Stack
+---
 
-- React
-- TypeScript
-- Vite
-- Firebase Firestore
-- Firebase Storage
-- html2canvas
-- MediaRecorder API
+## 🚀 What is PlayIQ?
 
-## Project Structure
+PlayIQ is a full-stack application that enables users to:
+
+- Add players to a basketball court
+- Move players dynamically
+- Draw movement paths (arrows)
+- Simulate passes between players
+- Visually design plays in real time
+
+The goal is to build a modern, interactive tool for coaches instead of static diagrams.
+
+---
+
+## ✨ Features (Current)
+
+- 🎯 Interactive basketball court
+- 🧍 Player creation & positioning
+- ➡️ Dynamic movement paths per player
+- 🏀 Ball ownership & passing system
+- 🎥 Visual play simulation
+
+---
+
+## 🧱 Tech Stack
+
+**Frontend**
+- React + TypeScript
+- Canvas / Web-based rendering
+
+**Backend**
+- Node.js (in progress)
+
+**Tools**
+- Git & GitHub
+- Docker (dev environment)
+
+---
+
+## 🛠️ How to Run Locally
+
+### 1. Clone the repository
 
 ```bash
-playiq-app/
-├── client/
-│   ├── public/
-│   ├── src/
-│   └── package.json
-└── README.md
+git clone https://github.com/DanielRachamim1234/PlayIQ.git
+cd PlayIQ
